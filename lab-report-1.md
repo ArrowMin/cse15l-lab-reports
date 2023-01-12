@@ -17,6 +17,6 @@ After installation, you need to remotely connect to your UCSD Lab email.
 1. Go to [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) in order to change your cse lab email.
 2. Once your email password is changed, open VSCode.
 3. On the top, click Terminal -> New Terminal and then type in "ssh cs15lwi23(your course specific letters here like aa)@ieng6.ucsd.edu"
-![Image](images/LR1Image2.PNG)
+![Image](images/LR1Image2.png)
 
 ## Step 3: Trying Some Commands
