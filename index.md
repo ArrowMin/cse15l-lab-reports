@@ -1,2 +1,2 @@
 Hello cse
-[Link](newpage.md)
+[Link](lab-report-1.md)
