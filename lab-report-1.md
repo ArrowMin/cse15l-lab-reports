@@ -21,7 +21,8 @@ After installation, you need to remotely connect to the UCSD ieng6 server using 
 
 ## Step 3: Trying Some Commands
 
-Once you are connected, you can try out some commands in the command line. I learned that using ls -lat will list all the files according to date, as well that -lat actually means combining flags like -l and -t.
+Once you are connected, you can try out some commands in the command line. I learned that using ls -lat will list all the files according to date. I also learned that 
+-lat actually means combining flags like -l and -t.
 
 1. Explore your current directory by typing ls, or ls -F, or ls -a
 2. Try out other commands such as mkdir, cd, pwd.
