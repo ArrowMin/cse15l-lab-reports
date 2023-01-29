@@ -73,5 +73,5 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{ 3 }, input1);
 }
 ```
-The Symptom : 
+The Symptom : <br>
 ![Image](images/LR2Image4.png)
