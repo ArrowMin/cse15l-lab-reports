@@ -50,27 +50,27 @@ The handleRequest method is called. The relevant arguments for the handleRequest
 ## Part 2
 
 Faulty Program chosen : 
-`
+```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
 }
 Input that causes an error :
-`
+```
 public void testReverseInPlaceMultiple() {
     int[] input1 = {1,2,3};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{3,2,1}, input1);
 }
-`
+```
 Input that does not cause an error : 
-`
+```
 public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 }
-`
+```
 The Symptom : 
 
