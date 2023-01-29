@@ -38,3 +38,6 @@ class StringServer {
     }
 }
 ```
+![Image](images/LR2Image2.png)
+![Image](images/LR2Image3.png)
+
