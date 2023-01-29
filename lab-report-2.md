@@ -94,3 +94,8 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
+The fix addresses the issue by properly saving the element switched while parsing through the array. Before the fix, the array was [3, 2, 3] as the value 1 never got saved and when referencing what index 2 should be, it chooses 3 as that is what index 0 currently is. After the fix, the array outputs to [3, 2, 1] as the value 1 gets saved in a temporary variable called "temp" and is able to be properly reversed.
+
+## Part 3
+
+One thing I learned from lab 2 that I did not know before was how to start my own web server using VSCode. I also did not know how to manipulate the port number, as well as being able to put parameters into the address line that actually influences what happens on the web page.
