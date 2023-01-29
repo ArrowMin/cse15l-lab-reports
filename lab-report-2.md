@@ -56,6 +56,7 @@ static void reverseInPlace(int[] arr) {
       arr[i] = arr[arr.length - i - 1];
     }
 }
+```
 Input that causes an error :
 ```
 public void testReverseInPlaceMultiple() {
