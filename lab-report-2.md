@@ -46,3 +46,31 @@ When first loading the web server, the main method is called. Then, when loading
 ![Image](images/LR2Image3.png)
 
 The handleRequest method is called. The relevant arguments for the handleRequest method is http://localhost:4000/add-message?s=Heyyyyyyyyy/. In the handleRequest method, the argument is changed from an URI to a String value.
+
+## Part 2
+
+Faulty Program chosen : 
+`
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+}
+Input that causes an error :
+`
+public void testReverseInPlaceMultiple() {
+    int[] input1 = {1,2,3};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{3,2,1}, input1);
+}
+`
+Input that does not cause an error : 
+`
+public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+}
+`
+The Symptom : 
+
