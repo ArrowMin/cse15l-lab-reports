@@ -1,2 +1,2 @@
-Hello cse
-[Link](lab-report-1.md)
+#Lab Reports#
+[Lab Report 1](lab-report-1.md)
