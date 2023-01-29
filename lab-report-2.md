@@ -39,5 +39,9 @@ class StringServer {
 }
 ```
 ![Image](images/LR2Image2.png)
+
+When first loading the web server, the main method is called. Then, when loading the webpage onto the browser, the handleRequest method is called. The relevant arguments for the main method is the port number in the command line, and the relevant argument for the handleRequest method is http://localhost:4000/add-message?s=Helllooooooo. In the command line argument, the port number 4000 is converted from a String to an int value. For the handleRequest method, the argument is changed from an URI to a String value.
+
 ![Image](images/LR2Image3.png)
 
+The handleRequest method is called. The relevant arguments for the handleRequest method is http://localhost:4000/add-message?s=Heyyyyyyyyy/. In the handleRequest method, the argument is changed from an URI to a String value.
