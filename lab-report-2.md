@@ -72,6 +72,7 @@ public void testReverseInPlace() {
 }
 ```
 The Symptom : <br>
+![Image](images/LR2Image5.png) <br>
 ![Image](images/LR2Image4.png) <br> 
 Before : 
 ```
