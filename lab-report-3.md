@@ -87,3 +87,8 @@ written_2/non-fiction/OUP/Abernathy/ch3.txt
 ```
 ### Explanation
 Using the -m flag with a number value argument will stop searching for the files that match the string once the number of files found matches the number given. This is useful if you just need the first few results of a search and do not want your terminal filled with a potential gigantic wall of text.
+
+## Source for all commands
+[https://linuxcommand.org/lc3_man_pages/grep1.html](https://linuxcommand.org/lc3_man_pages/grep1.html)
+
+I found this source by looking up the man or manual documentation for the command "grep"
