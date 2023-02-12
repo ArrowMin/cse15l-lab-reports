@@ -23,7 +23,7 @@ $ grep -c ".txt" grep-results.txt
 224
 ```
 ### Explanation
-Instead of giving the path names of each file with the input, adding the -c flag to grep will simply give the number of files that have that string. Useful if you just need the number.
+Instead of giving the path names of each file with the input, adding the -c flag to grep will simply give the number of files that have that string. Useful if you just need the number of files.
 
 ## grep -v
 ### Example 1
