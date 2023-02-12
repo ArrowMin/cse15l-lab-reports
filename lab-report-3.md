@@ -68,7 +68,7 @@ written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
 ```
 ### Explanation
 Using the -i flag will make grep ignore case distinction, for example both "BAHAMAS" and "bahamas" resulted in finding files that contained "Bahamas". Useful if the files you are searching are named correctly but not capitalized consistently. 
-## grep -m *num*
+## grep -m *number*
 ### Example 1
 ```
 $ grep -m 3 "Bahamas" grep-results.txt 
