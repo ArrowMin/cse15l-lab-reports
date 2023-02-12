@@ -15,5 +15,7 @@ $ grep -c "Bahamas" grep-results.txt
 ### Example 2
 ```
 $ grep -c ".txt" grep-results.txt 
-179
+224
 ```
+### Explaination
+Instead of giving the path names of each file with the input, adding the -c flag to grep will simply give the number of files that have that string.
