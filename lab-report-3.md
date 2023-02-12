@@ -48,4 +48,4 @@ $ grep -v ".txt" grep-results.txt
  
 ```
 ### Explanation
-The -v flag will match everything that is NOT containing the given string, for example when 
+The -v flag will match everything that is NOT containing the given string, for example when looking into the results.txt file for ".txt", only the directories are returned as they are the only things without ".txt" in them. Similarly, when using grep -v ".txt" on the grep-results.txt which only contains ".txt" files, nothing is returned as they all have it.
