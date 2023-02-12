@@ -4,13 +4,13 @@
 ```
 find written_2 > results.txt
 ```
-**Contains directories and .txt files of written_2**
+*Contains directories and .txt files of written_2*
 ## Creation of grep-results.txt
 ```
 find written_2 > results.txt
 grep ".txt" results.txt > grep-results.txt
 ```
-**Only contains .txt files of written_2**
+*Only contains .txt files of written_2*
 ## grep -c
 ### Example 1
 ```
