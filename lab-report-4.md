@@ -24,18 +24,18 @@ After that, I typed in `cd lab7/` in order to switch to the lab7/ directory. The
 
 ## Step 7 :
 
-![Image](images/LRImage5.png)
+![Image](images/LR4Image5.png)
 
 In order to fix the bug, I typed in `sed '43 s/index1/index2/' ListExamples.java -i` to change the line with a bug.
 
 ## Step 8 :
 
-![Image](images/LRImage6.png)
+![Image](images/LR4Image6.png)
 
 To run the tests again, I pressed `<ctrl> + <R>` to bring up the previous commands I entered then typed in `javac <enter>` which autocompleted the previous compile command I typed in earlier. To run the tester again, I did `<ctrl> + <R>` again and then typed in `java -c<enter>` to autocomplete the test runner.
 
 ## Step 9 :
 
-![Image](images/LRImage7.png)
+![Image](images/LR4Image7.png)
 
 To add all the changes I typed in `git add .`, then I typed in `git commit -m "Fix Bug"`, and then I typed in `git push` to save all the changes to GitHub.
